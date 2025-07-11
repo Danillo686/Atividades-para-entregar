@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            margin-top: 50px;
+            grid: 10;
+            display: flexbox;
+            
+        }
+    </style>
+</head>
+<body>
+    <form class="formulario">
+  <input type="text" placeholder="Nome">
+  <input type="email" placeholder="Email">
+  <br>
+  <input type="text" placeholder="Telefone">
+  <input type="text" placeholder="Cidade">
+  <br>
+  <button id="botão">Enviar</button>
+</form>
+</body>
+</html>
