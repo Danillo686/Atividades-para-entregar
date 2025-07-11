@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tabela-notas {
+            border-style: groove;
+            width: 5%; /*separando um pouco*/
+            margin: 0 auto; /*colocando no meio automaticamente*/
+        }
+
+        #cabeça {
+            color: gray;
+        }
+
+        tr:hover{
+            color:rgb(102, 100, 100)
+        }
+    </style>
+</head>
+<body>
+    <table class="tabela-notas" style="border: 20;">
+  <thead id="cabeça">
+    <tr>
+      <th>Aluno</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ana</td>
+      <td>9.5</td>
+    </tr>
+    <tr>
+      <td>Bruno</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>Clara</td>
+      <td>7.8</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
