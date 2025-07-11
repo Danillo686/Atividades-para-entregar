@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="fundo">
+    <h1>Bem-vindo!</h1>
+    <button id="modoClaro" onclick="white()">Modo Claro</button>
+    <button id="modoEscuro" onclick="Dark()">Modo Escuro</button>
+    <script>
+        var white = document.getElementById ("modoClaro")
+        var dark = document.getElementById ("modoEscuro")
+        var body = document.getElementById ("fundo")
+        
+        dark.addEventListener("click", modoEscuro);
+        white.addEventListener("click", modoClaro);
+
+        function modoEscuro() {
+            body.style.backgroundColor = "black";
+            body.style.color = "white"; 
+        }
+
+        function modoClaro() {
+            body.style.backgroundColor = "white";
+            body.style.color = "black";
+        }
+    </script>
+</body>
+</html>
