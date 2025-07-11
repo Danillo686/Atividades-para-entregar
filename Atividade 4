@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .links {
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+        
+        a:hover {
+            color: rgb(107, 100, 100) ;
+        }
+    </style>
+</head>
+<body>
+    <nav class="links">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+</body>
+</html>
